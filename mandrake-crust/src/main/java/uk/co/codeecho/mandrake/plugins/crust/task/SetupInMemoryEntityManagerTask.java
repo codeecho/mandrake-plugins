@@ -1,14 +1,14 @@
 package uk.co.codeecho.mandrake.plugins.crust.task;
 
-import biz.devspot.entity.framework.core.EntityManagerFactory;
-import biz.devspot.entity.framework.core.EntityManagerImpl;
-import biz.devspot.entity.framework.core.EntityManagerNotFoundException;
-import biz.devspot.entity.framework.core.dao.mongo.MongoDao;
-import biz.devspot.entity.framework.core.mapping.json.DataBackedObjectMapper;
+import uk.co.codeecho.crust.core.EntityManagerFactory;
+import uk.co.codeecho.crust.core.EntityManagerImpl;
+import uk.co.codeecho.crust.core.EntityManagerNotFoundException;
+import uk.co.codeecho.crust.core.dao.mongo.MongoDao;
+import uk.co.codeecho.crust.core.mapping.json.DataBackedObjectMapper;
 import com.github.fakemongo.Fongo;
 import uk.co.codeecho.mandrake.core.task.Task;
 
-public abstract class SetupInMemoryEntityManagerTask implements Task{
+public class SetupInMemoryEntityManagerTask implements Task{
 
     @Override
     public void run() {

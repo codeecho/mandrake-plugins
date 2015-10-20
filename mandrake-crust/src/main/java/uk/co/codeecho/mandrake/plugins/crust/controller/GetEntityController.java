@@ -1,7 +1,7 @@
 package uk.co.codeecho.mandrake.plugins.crust.controller;
 
-import biz.devspot.entity.framework.core.EntityManagerFactory;
-import biz.devspot.entity.framework.core.model.DataBackedObject;
+import uk.co.codeecho.crust.core.EntityManagerFactory;
+import uk.co.codeecho.crust.core.model.DataBackedObject;
 import java.util.Map;
 import uk.co.codeecho.mandrake.core.controller.AbstractController;
 import uk.co.codeecho.mandrake.core.request.Request;

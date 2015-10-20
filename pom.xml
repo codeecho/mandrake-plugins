@@ -10,6 +10,7 @@
     <modules>
         <module>mandrake-spring</module>
         <module>mandrake-crust</module>
+        <module>mandrake-desktop</module>
     </modules>
     
     <build>

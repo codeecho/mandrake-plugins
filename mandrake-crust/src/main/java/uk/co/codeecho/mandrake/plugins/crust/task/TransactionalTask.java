@@ -1,6 +1,6 @@
 package uk.co.codeecho.mandrake.plugins.crust.task;
 
-import biz.devspot.entity.framework.core.EntityManagerFactory;
+import uk.co.codeecho.crust.core.EntityManagerFactory;
 import uk.co.codeecho.mandrake.core.task.Task;
 
 public abstract class TransactionalTask implements Task{
